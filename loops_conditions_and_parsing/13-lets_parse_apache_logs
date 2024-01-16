@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# numebr 13
+
+awk '{print $1, $9}' apache-access.log
